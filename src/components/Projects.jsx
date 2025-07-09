@@ -6,7 +6,7 @@ const projectsData = [
     {
         title: "SkillScope",
         description: "Outil de scraping et d'analyse de données pour quantifier les compétences les plus demandées dans les offres d'emploi.",
-        tools: ["Python", "Streamlit", "Pandas", "Requests", "Selenium"],
+        tools: ["Python", "Pandas", "Google Cloud", "API", "IA"],
         github: "https://github.com/Hamza-Kachmir/SkillScope",
         liveUrl: "https://skillscope-4igg.onrender.com/",
         logo: 'SkillScope.svg',
