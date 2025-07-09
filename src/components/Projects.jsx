@@ -8,7 +8,7 @@ const projectsData = [
         description: "Outil de scraping et d'analyse de données pour quantifier les compétences les plus demandées dans les offres d'emploi.",
         tools: ["Python", "Streamlit", "Pandas", "Requests", "Selenium"],
         github: "https://github.com/Hamza-Kachmir/SkillScope",
-        liveUrl: "https://skillscope-analyzer.streamlit.app/",
+        liveUrl: "https://skillscope-4igg.onrender.com/",
         logo: 'SkillScope.svg',
         logoClassName: 'h-12 w-auto object-contain'
     },
