@@ -5,7 +5,7 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const projectsData = [
     {
         title: "SkillScope",
-        description: "Outil de scraping et d'analyse de données pour quantifier les compétences les plus demandées dans les offres d'emploi.",
+        description: "Outil qui analyse les offres d'emploi via les API de France Travail et l'IA de Gemini pour identifier les compétences les plus demandées.",
         tools: ["Python", "Pandas", "Google Cloud", "API", "IA"],
         github: "https://github.com/Hamza-Kachmir/SkillScope",
         liveUrl: "https://skillscope-4igg.onrender.com/",
