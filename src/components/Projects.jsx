@@ -6,17 +6,27 @@ const projectsData = [
     {
         title: "SkillScope",
         description: "Outil qui analyse les offres d'emploi via les API de France Travail et l'IA de Gemini pour identifier les compétences les plus demandées.",
-        tools: ["Python", "Pandas", "Google Cloud", "API", "IA"],
+        tools: ["Python", "NiceGUI", "Google Cloud", "API", "IA", "Redis", "Docker"],
         github: "https://github.com/Hamza-Kachmir/SkillScope",
         liveUrl: "https://skillscope-4igg.onrender.com/",
         logo: 'SkillScope.svg',
         logoClassName: 'h-12 w-auto object-contain'
     },
     {
+        title: "Data Collector",
+        description: "Démonstration d'une application web qui interroge l'API de France Travail pour trouver des offres d'emploi en temps réel.",
+        tools: ["Python", "NiceGUI", "Requests", "API"],
+        github: "https://github.com/Hamza-Kachmir/Data-Collector-Demo",
+        liveUrl: "https://data-collector-demo.onrender.com",
+        logo: null,
+        logoClassName: ''
+    },
+    {
         title: "Analizor",
-        description: "Outil d'automatisation de la collecte, importation et analyse des ventes d'une PME.",
+        description: "Démonstration d'un pipeline de données (ETL) interactif qui télécharge, transforme et analyse des données de ventes.",
         tools: ["Python", "Pandas", "Docker", "SQLite"],
         github: "https://github.com/Hamza-Kachmir/Analizor",
+        liveUrl: "https://analizor.onrender.com",
         logo: null,
         logoClassName: ''
     },
