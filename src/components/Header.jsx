@@ -21,12 +21,14 @@ const Header = () => {
         <p className="max-w-2xl mx-auto text-lg text-secondary mb-8">
           Bienvenue sur mon portfolio. Découvrez mon parcours et mes projets.
         </p>
-        <a href="/CV_Hamza_Kachmir.pdf" download="CV_Hamza_Kachmir.pdf" className="bg-transparent border-2 border-accent text-accent font-bold py-3 px-6 rounded-lg hover:bg-accent hover:text-background transition-all duration-300">
-          Télécharger mon CV
-        </a>
-        <div className="flex justify-center items-center space-x-4 mt-4">
-          <a href="https://github.com/Hamza-Kachmir" target="_blank" rel="noreferrer" className="text-secondary hover:text-accent text-3xl transition-colors duration-300"><FaGithub /></a>
-          <a href="https://www.linkedin.com/in/hamza-kachmir/" target="_blank" rel="noreferrer" className="text-secondary hover:text-accent text-3xl transition-colors duration-300"><FaLinkedin /></a>
+        <div className="flex flex-col items-center">
+          <a href="/CV_Hamza_Kachmir.pdf" download="CV_Hamza_Kachmir.pdf" className="bg-transparent border-2 border-accent text-accent font-bold py-3 px-6 rounded-lg hover:bg-accent hover:text-background transition-all duration-300">
+            Télécharger mon CV
+          </a>
+          <div className="flex justify-center items-center space-x-4 mt-4">
+            <a href="https://github.com/Hamza-Kachmir" target="_blank" rel="noreferrer" className="text-secondary hover:text-accent text-3xl transition-colors duration-300"><FaGithub /></a>
+            <a href="https://www.linkedin.com/in/hamza-kachmir/" target="_blank" rel="noreferrer" className="text-secondary hover:text-accent text-3xl transition-colors duration-300"><FaLinkedin /></a>
+          </div>
         </div>
       </div>
     </header>
