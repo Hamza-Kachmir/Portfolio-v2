@@ -6,7 +6,7 @@ const projectsData = [
     {
         title: "SkillScope",
         description: "Outil qui analyse les offres d'emploi via les API de France Travail et l'IA de Gemini pour identifier les compétences les plus demandées.",
-        tools: ["Python", "NiceGUI", "Google Cloud", "API", "IA", "Redis", "Docker"],
+        tools: ["Python","Pandas", "NiceGUI", "Google Cloud", "API", "IA", "Docker"],
         github: "https://github.com/Hamza-Kachmir/SkillScope",
         liveUrl: "https://skillscope-4igg.onrender.com/",
         logo: 'SkillScope.svg',
